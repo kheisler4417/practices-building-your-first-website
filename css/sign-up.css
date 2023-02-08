@@ -1,0 +1,43 @@
+fieldset {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    background-color: #e9c46aff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    border-style: dashed;
+    border-radius: 15%;
+    border-width: 2px;
+    border-color: #e76f51ff;
+}
+
+h1 {
+    margin-left: 12%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin-top: 2%;
+    font-size: x-large;
+    font-weight: 600;
+    color: #264653ff;
+}
+
+.sign-up-elements {
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #264653ff;
+}
+
+.unflex {
+    display: block;
+}

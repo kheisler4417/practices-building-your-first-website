@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <link rel="stylesheet" href="../css/nav-bar.css" type="text/css">
+    <link rel="stylesheet" href="../css/sign-up.css" type="text/css">
+</head>
+<body>
+    <div class="nav-bar">
+        <form action="../index.html">
+            <button class="nav-button">Home</button>
+        </form>
+        <form action="sign-up.html">
+            <button class="nav-button current-page">Sign Up</button>
+        </form>
+        <form action="contact.html">
+            <button class="nav-button">Contact</button>
+        </form>
+        <form action="images.html">
+            <button class="nav-button">Images</button>
+        </form>
+    </div>
+
+    <h1 class="below-nav">Sign Up</h1>
+        <form action="x" method="post"></form>
+        <fieldset>
+
+                <div class="sign-up-elements">
+                    <label for="firstName">First name</label>
+                    <input type="text" name="first_name" id="firstName">
+                </div>
+
+                <div class="sign-up-elements">
+                    <label for="lastName">Last name</label>
+                    <input type="text" name="last_name" id="lastName">
+                </div>
+
+                <div class="sign-up-elements">
+                    <label for="email">Email</label>
+                    <input type="email" name="email-address" id="email">
+                </div>
+
+                <p>
+                    Our connection?
+                </p>
+
+                <div class="sign-up-elements unflex">
+                    <input type="radio" name="friend" id="friend" value="friend">
+                    <label for="friend">Friend</label>
+                </div>
+
+                <div class="sign-up-elements unflex">
+                    <input type="radio" name="family" id="family" value="family">
+                    <label for="family">Family</label>
+                </div>
+
+                <div class="sign-up-elements unflex">
+                    <input type="radio" name="potential_employer" id="potentialEmployer" value="potentialEmployer">
+                    <label for="potentialEmployer">Potential Employer</label>
+                </div>
+
+                <div class="sign-up-elements unflex">
+                    <input type="radio" name="other" id="other" value="other">
+                    <label for="other">Other</label>
+                </div>
+
+                <div class="sign-up-elements">
+                    <label for="comments">Comments:</label>
+                    <textarea name="user_comments" id="comments" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="sign-up-elements">
+                    <label for="currentDate">Current Date</label>
+                    <input type="date" name="current_date" id="currentDate">
+                </div>
+
+                <div class="sign-up-elements unflex">
+                    <input type="checkbox" name="newsletter_sign_up" id="newsletterSignUp" value="newsletterSignUp">
+                    <label for="newsletterSignUp">Sign up for newsletter</label>
+                </div>
+
+                <div class="sign-up-elements unflex">
+                    <input type="checkbox" name="agree_to_terms" id="agreeToTerms" value="agreeToTerms">
+                    <label for="agreeToTerms">Agree to terms and conditions</label>
+                </div>
+
+                <div class="sign-up-elements">
+                    <button class="nav-button" type="submit">Submit</button>
+                </div>
+
+        </fieldset>
+</body>
+</html>
