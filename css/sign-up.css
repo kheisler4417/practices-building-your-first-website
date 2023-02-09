@@ -26,6 +26,15 @@ p {
     font-size: x-large;
     font-weight: 600;
     color: #264653ff;
+    border: 0;
+    background-color: #e9c46aff;
+}
+
+.radio-button-box {
+    margin-top: -2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sign-up-elements {
